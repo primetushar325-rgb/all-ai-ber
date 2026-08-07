@@ -29,7 +29,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#0a0a0a" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="monetag" content="a1bc62f856faf596393e74d73862da6c" />
-        <script src="https://quge5.com/88/tag.min.js" data-zone="267155" async data-cfasync="false"></script>
         {ADSENSE_CONFIG.enabled && ADSENSE_CONFIG.clientId && (
           <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CONFIG.clientId}`} crossOrigin="anonymous"></script>
         )}
