@@ -80,6 +80,28 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* YouTube Creator Tools Banner */}
+        <section>
+          <a
+            href="https://youtube-creator-hub-gray.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block rounded-[2rem] bg-black p-8 md:p-12 text-center relative overflow-hidden hover:opacity-90 transition-opacity"
+          >
+            <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-400/10 rounded-full blur-2xl" />
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-yellow-400/10 rounded-full blur-2xl" />
+            <div className="relative">
+              <h2 className="text-3xl md:text-5xl font-bold text-yellow-400 flex items-center justify-center gap-3">
+                🎬 YouTube Creator Tools
+              </h2>
+              <p className="mt-3 text-white/70 text-sm md:text-base">Click to open our dedicated YouTube Creator Tools website</p>
+              <span className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-yellow-400 text-black rounded-full font-semibold text-sm group-hover:gap-3 transition-all">
+                Open Now <ArrowRight className="h-4 w-4" />
+              </span>
+            </div>
+          </a>
+        </section>
+
         <InContentAd />
 
         {/* Featured Tools */}
